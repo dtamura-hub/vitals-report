@@ -11,7 +11,7 @@ def classify(systolic, diastolic):
         return "再測定"
     if systolic >= 140 or diastolic >= 90:
         return "高血圧疑い"
-    return "正常値"
+    return "正常範囲"
 
 for pid, s, d in readings:
     print(pid, classify(s, d))
