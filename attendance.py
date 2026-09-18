@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 
+
 records = [
     ("田中", "2026-09-01", "09:00", "18:00"),
     ("田中", "2026-09-02", "09:15", "19:45"),
